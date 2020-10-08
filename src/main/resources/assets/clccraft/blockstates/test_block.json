@@ -1,0 +1,9 @@
+{
+    "variants": 
+    {
+        "normal": 
+        { 
+            "model": "clccraft:test_block" 
+        }
+    }
+}

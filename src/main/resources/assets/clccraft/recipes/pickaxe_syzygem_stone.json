@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "SSS",
+        " T ",
+        " T "
+    ],
+    "key":
+    {
+        "S":
+        {
+            "item": "clccraft:syzygem_stone",
+            "data": 0
+        },
+        "T":
+        {
+            "item": "minecraft:stick",
+            "data": 0
+        }
+    },
+    "result":
+    {
+        "item": "clccraft:pickaxe_syzygem_stone",
+        "count": 1
+    }
+}

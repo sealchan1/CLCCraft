@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "   ",
+        " W ",
+        "W W"
+    ],
+    "key":
+    {
+        "W":
+        {
+            "item": "minecraft:log2",
+            "data": 1
+        }
+    },
+    "result":
+    {
+        "item": "clccraft:barkmulch_darkoak",
+        "count": 9
+    }
+}

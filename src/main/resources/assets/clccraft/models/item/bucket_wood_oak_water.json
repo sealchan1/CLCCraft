@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures":
+    {
+        "layer0": "clccraft:items/bucket_wood_oak_water"
+    }
+} 

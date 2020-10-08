@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "W W",
+        "W W",
+        " W "
+    ],
+    "key":
+    {
+        "W":
+        {
+            "item": "minecraft:log",
+            "data": 0
+        }
+    },
+    "result":
+    {
+        "item": "clccraft:bucket_wood_oak",
+        "count": 1
+    }
+}
