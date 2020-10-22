@@ -24,8 +24,11 @@ public class ModWorldGen implements IWorldGenerator
 		if(world.provider.getDimension() == 0) // Overworld
 		{
 			int oreSyzygemStoneChances = 80;  // Like Iron Ore @ 20 X 4 because 0 to 256 y level
+			int oreCommonChances = 80; // Like Iron Ore @ 20 X 4 because 0 to 256 y level 
 			generateOre(ModBlocks.ORE_SYZYGEM_STONE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 0, 256, random.nextInt(7) + 4, 
 					oreSyzygemStoneChances, BlockMatcher.forBlock(Blocks.STONE));
+			generateOre(ModBlocks.STONE_FLINT.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 0, 256, random.nextInt(7) + 4,
+					oreCommonChances, BlockMatcher.forBlock(Blocks.GRAVEL));
 		}
 	}
 	

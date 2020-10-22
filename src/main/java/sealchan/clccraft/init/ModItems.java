@@ -25,6 +25,7 @@ public class ModItems
 	//public static final Item UBUCKET_WOOD_OAK = new UBucketWoodOak("bucket_wood_oak", CreativeTabs.MISC);
 	
 	public static final Item SYZYGEM_STONE = new ModItem("syzygem_stone", CreativeTabs.MISC);
+	public static final Item SYZYGEM_FLINT = new ModItem("syzygem_flint", CreativeTabs.MISC);
 	
 	public static final ItemPickaxe SYZYGEM_STONE_PICKAXE = new PickaxeSyzygemStone("pickaxe_syzygem_stone", ToolMaterial.STONE);
 }

@@ -6,6 +6,7 @@ import java.util.List;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import sealchan.clccraft.blocks.BarkMulchBlock;
+import sealchan.clccraft.blocks.FlintStone;
 import sealchan.clccraft.blocks.ModBlock;
 import sealchan.clccraft.blocks.SyzygemStoneOre;
 import sealchan.clccraft.blocks.TestBlock;
@@ -22,6 +23,7 @@ public class ModBlocks
 	public static final Block BARKMULCH_SPRUCE = new BarkMulchBlock("barkmulch_spruce");
 	
 	public static final Block ORE_SYZYGEM_STONE = new SyzygemStoneOre();
+	public static final Block STONE_FLINT = new FlintStone();
 	
 	//public static final Block TEST_BLOCK = new TestBlock("test_block", Material.WOOD);
 }

@@ -1,7 +1,7 @@
 
 // Items
 item.syzygem_stone.name=Stone Syzygem
-item.pickaxe_syzygem_stone.name=Stone Syzygem Pickaxe
+item.syzygem_flint.name=Flint Syzygem
 
 // Blocks
 tile.barkmulch_acacia.name=Acacia Bark Mulch
@@ -11,6 +11,7 @@ tile.barkmulch_jungle.name=Jungle Bark Mulch
 tile.barkmulch_oak.name=Oak Bark Mulch
 tile.barkmulch_spruce.name=Spruce Bark Mulch
 tile.ore_syzygem_stone.name=Syzygem Stone Ore
+tile.stone_flint.name=Flint Stone
 
 //tile.test_block.name=Test Block
 //tile.bucket_wood_block.name=Wooden Bucket
@@ -19,6 +20,7 @@ tile.ore_syzygem_stone.name=Syzygem Stone Ore
 // Tools
 item.bucket_wood_oak.name=Wood Bucket
 item.bucket_wood_oak_water.name=Wood Bucket
+item.pickaxe_syzygem_stone.name=Stone Syzygem Pickaxe
 
 // Armor
 
