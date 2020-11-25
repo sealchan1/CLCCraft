@@ -1,0 +1,36 @@
+{
+    "type": "forge:ore_shapeless",
+    
+    "ingredients":
+    [
+        {
+            "item": "minecraft:glass_pane"
+        },
+        {
+            "item": "minecraft:glass_pane"
+        },
+        {
+            "item": "minecraft:glass_pane"
+        },
+        {
+            "item": "minecraft:glass_pane"
+        },
+        {
+            "item": "minecraft:glass_pane"
+        },
+        {
+            "item": "minecraft:glass_pane"
+        },
+        
+        {
+            "type": "forge:ore_dict",
+            "ore": "slimeball"
+        }
+    ],
+    
+    "result":
+    {
+        "item": "minecraft:glass",
+        "count": 1
+    }
+}

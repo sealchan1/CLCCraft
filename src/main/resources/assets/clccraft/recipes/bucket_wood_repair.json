@@ -1,0 +1,22 @@
+{
+    "type": "forge:ore_shapeless",
+    
+    "ingredients":
+    [
+        {
+            "item": "clccraft:bucket_wood_oak",
+            "data": 32767
+        },
+
+        {
+            "type": "forge:ore_dict",
+            "ore": "slimeball"
+        }
+    ],
+    
+    "result":
+    {
+        "item": "clccraft:bucket_wood_oak",
+        "count": 1
+    }
+}

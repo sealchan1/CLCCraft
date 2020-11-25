@@ -2,11 +2,13 @@ package sealchan.clccraft.util.handlers;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
+import net.minecraftforge.oredict.OreDictionary;
 import sealchan.clccraft.init.ModBlocks;
 import sealchan.clccraft.init.ModItems;
 import sealchan.clccraft.util.IHasModel;
@@ -46,6 +48,17 @@ public class RegistryHandler
 			}
 		}
 	}
+	
+
+	public static void registerOreDictionaryEntries()
+    {
+        OreDictionary.registerOre("logWood", ModBlocks.LOG_MAPLE_LIMEGREEN);
+        
+        OreDictionary.registerOre("slimeball", ModItems.SAP_MAPLE_LIMEGREEN);
+        
+        OreDictionary.registerOre("listAllwater", ModItems.BUCKET_WOOD_OAK_WATER);
+    }
+
 	
 	public static void otherRegisters()
 	{

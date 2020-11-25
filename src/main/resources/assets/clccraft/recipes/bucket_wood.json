@@ -3,8 +3,7 @@
   
   "pattern": 
   [
-        "W W",
-        "W W",
+        "WSW",
         " W "
   ],
   
@@ -14,6 +13,11 @@
     {
       "type": "forge:ore_dict",
       "ore": "logWood"
+    },
+    "S":
+    {
+      "type": "forge:ore_dict",
+      "ore": "slimeball"
     }
   },
   

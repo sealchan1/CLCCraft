@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "group": "clccraft:planks",
+    
+    "pattern":
+    [
+        "L"
+    ],
+    
+    "key":
+    {
+        "L":
+        {
+            "item": "clccraft:log_maple_limegreen",
+            "data": 0
+        }
+    },
+    
+    "result":
+    {
+        "item": "clccraft:plank_maple_limegreen",
+        "count": 4,
+        "data": 0
+    }
+}
