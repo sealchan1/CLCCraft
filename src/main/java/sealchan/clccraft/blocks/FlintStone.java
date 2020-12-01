@@ -89,8 +89,8 @@ public class FlintStone extends ModBlock
     			0
     			));
     	
-		// 1 in 9 
-    	if(rand.nextInt(9) + 1 == 1)
+		// 1 in 3 
+    	if(rand.nextInt(3) + 1 == 1)
 		{
     		drops.add(new ItemStack(ModItems.SYZYGEM_FLINT, 1, 0));
 		}

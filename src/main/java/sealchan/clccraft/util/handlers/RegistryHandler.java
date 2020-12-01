@@ -54,6 +54,8 @@ public class RegistryHandler
     {
         OreDictionary.registerOre("logWood", ModBlocks.LOG_MAPLE_LIMEGREEN);
         
+        OreDictionary.registerOre("plankWood", ModBlocks.PLANK_MAPLE_LIMEGREEN);
+        
         OreDictionary.registerOre("slimeball", ModItems.SAP_MAPLE_LIMEGREEN);
         
         OreDictionary.registerOre("listAllwater", ModItems.BUCKET_WOOD_OAK_WATER);

@@ -28,6 +28,7 @@ tile.sapling_maple_limegreen.name=Lime Green Maple Sapling
 item.bucket_wood_oak.name=Wood Bucket
 item.bucket_wood_oak_water.name=Wood Bucket
 item.pickaxe_syzygem_stone.name=Stone Syzygem Pickaxe
+item.shovel_syzygem_flint.name=Flint Syzygem Shovel
 
 // Armor
 

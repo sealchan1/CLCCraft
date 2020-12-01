@@ -123,7 +123,7 @@ public class BucketWoodOak extends ItemBucket implements IHasModel
                         playerIn.setFire(10);
                         // Disappears from hand
                         if(!worldIn.isRemote)
-                        	playerIn.sendMessage(new TextComponentString(TextFormatting.GOLD + "Ouch!...lava in a wood bucket.  That’s gotta hurt!"));
+                        	playerIn.sendMessage(new TextComponentString(TextFormatting.GOLD + "Ouch!...lava in a wood bucket.  That\'s gotta hurt!"));
                         return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, itemstack.EMPTY);
                     }
                     else

@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        " F ",
+        " T ",
+        " T "
+    ],
+    "key":
+    {
+        "F":
+        {
+            "item": "clccraft:syzygem_flint",
+            "data": 0
+        },
+        "T":
+        {
+            "item": "minecraft:stick",
+            "data": 0
+        }
+    },
+    "result":
+    {
+        "item": "clccraft:shovel_syzygem_flint",
+        "count": 1
+    }
+}
