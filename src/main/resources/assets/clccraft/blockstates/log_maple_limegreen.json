@@ -1,0 +1,10 @@
+{
+    "variants":
+    {
+        "axis=y": { "model": "clccraft:log_maple_limegreen" },
+        "axis=z": { "model": "clccraft:log_maple_limegreen", "x": 90 },
+        "axis=x": { "model": "clccraft:log_maple_limegreen", "x": 90, "y": 90 },
+        "axis=none": { "model": "clccraft:log_maple_limegreen" }
+    }
+}
+        

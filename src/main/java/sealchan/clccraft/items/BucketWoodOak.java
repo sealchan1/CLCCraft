@@ -46,6 +46,8 @@ public class BucketWoodOak extends ItemBucket implements IHasModel
 		setRegistryName(name);
 		setCreativeTab(tab);
 		
+		this.setMaxDamage(ToolMaterial.WOOD.getMaxUses());  
+		
 		ModItems.ITEMS.add(this);
 		
 		//OreDictionary.registerOre("listAllwater", this);
@@ -121,7 +123,7 @@ public class BucketWoodOak extends ItemBucket implements IHasModel
                         playerIn.setFire(10);
                         // Disappears from hand
                         if(!worldIn.isRemote)
-                        	playerIn.sendMessage(new TextComponentString(TextFormatting.GOLD + "Ouch!...lava in a wood bucket.  That’s gotta hurt!"));
+                        	playerIn.sendMessage(new TextComponentString(TextFormatting.GOLD + "Ouch!...lava in a wood bucket.  That\'s gotta hurt!"));
                         return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, itemstack.EMPTY);
                     }
                     else
@@ -147,9 +149,23 @@ public class BucketWoodOak extends ItemBucket implements IHasModel
                     }
 
                     playerIn.addStat(StatList.getObjectUseStats(this));
-                    return !playerIn.capabilities.isCreativeMode 
-                    		? new ActionResult(EnumActionResult.SUCCESS, new ItemStack(ModItems.BUCKET_WOOD_OAK)) // Changed from Items.BUCKET
-            				: new ActionResult(EnumActionResult.SUCCESS, itemstack);
+                    // Set new bucket to damage level of this bucket - 1
+                    if(!playerIn.capabilities.isCreativeMode) 
+                    {
+                    	// Set itemDamage of new empty bucket to itemDamage of current full bucket
+                    	ItemStack emptiedBucket = new ItemStack(ModItems.BUCKET_WOOD_OAK, 1, itemstack.getItemDamage());
+                    	// Now add 1 damage
+                    	itemstack.damageItem(1, playerIn);
+                    	return new ActionResult(EnumActionResult.SUCCESS, emptiedBucket);
+                    }
+                    else
+                    {
+                    	return new ActionResult(EnumActionResult.SUCCESS, itemstack);
+                    }
+                    
+                    //return !playerIn.capabilities.isCreativeMode 
+                    //		? new ActionResult(EnumActionResult.SUCCESS, new ItemStack(ModItems.BUCKET_WOOD_OAK)) // Changed from Items.BUCKET
+            		//		: new ActionResult(EnumActionResult.SUCCESS, itemstack);
                 }
                 else
                 {
@@ -172,7 +188,11 @@ public class BucketWoodOak extends ItemBucket implements IHasModel
 
             if (emptyBuckets.isEmpty())
             {
-                return new ItemStack(fullBucket);
+            	// Set itemDamage of new fullBucket to itemDamage of emptyBucket
+            	ItemStack retStack = new ItemStack(fullBucket, 1, emptyBuckets.getItemDamage());
+            	// Now add 1 damage
+            	retStack.damageItem(1, player);
+            	return retStack;
             }
             else
             {

@@ -1,0 +1,8 @@
+{
+    "variants":
+    {
+        "stage=0": { "model": "clccraft:sapling_maple_limegreen" },
+        "stage=1": { "model": "clccraft:sapling_maple_limegreen" }
+    }
+}
+        

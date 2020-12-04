@@ -1,0 +1,8 @@
+{
+    "parent": "block/cube_column",
+    "textures":
+    {
+        "end": "clccraft:blocks/log_maple_limegreen_top",
+        "side": "clccraft:blocks/log_maple_limegreen"
+    }
+}

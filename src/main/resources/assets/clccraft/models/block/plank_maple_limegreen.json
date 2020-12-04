@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_all",
+    "textures":
+    {
+        "all": "clccraft:blocks/plank_maple_limegreen"
+    }
+}

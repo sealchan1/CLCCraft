@@ -34,7 +34,10 @@ public class Main
 	}
 	
 	@EventHandler
-	public static void init(FMLInitializationEvent event) {}
+	public static void init(FMLInitializationEvent event) 
+	{
+		RegistryHandler.registerOreDictionaryEntries();
+	}
 	
 	@EventHandler
 	public static void postInit(FMLPostInitializationEvent event) {}

@@ -1,0 +1,9 @@
+{
+    "variants":
+    {
+        "check_decay=true,decayable=true": { "model": "clccraft:leaves_maple_limegreen" },
+        "check_decay=true,decayable=false": { "model": "clccraft:leaves_maple_limegreen" },
+        "check_decay=false,decayable=true": { "model": "clccraft:leaves_maple_limegreen" },
+        "check_decay=false,decayable=false": { "model": "clccraft:leaves_maple_limegreen" }
+    }
+}
